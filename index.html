@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Added -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Main CSS File Added -->
+    <link rel="stylesheet" href="style.css">
+    <title>Money Count Calculator</title>
+</head>
+
+<body>
+    <!-- Header Title Start Form Here -->
+    <header class="header-title text-center container mt-3 mb-5">
+        <h2>Money Count <img src="images/dollar.png" alt=""> Calculator</h2>
+    </header>
+    <!-- Income Section Start Form Here -->
+    <section class="income-section container">
+        <div class="row gy-4">
+            <div class="col-lg-7 col-md-6 col-sm-12">
+                <div class="income-thubnail d-block align-items-center">
+                    <img src="images/2.jpg" alt="" class="img-fluid d-block">
+                </div>
+            </div>
+            <div class="incomeBg col-lg-5 col-md-6 col-sm-12">
+                <div class="income-content">
+                    <div class="income-count">
+                        <h3 class="text-center mt-3 mb-3">income</h3>
+                        <div class="d-flex">
+                            <h4 class="mt-2 income-title">income:</h4>
+                            <input type="number" name="" id="incomeInput" class="form-control">
+                        </div>
+                    </div>
+                    <div class="income-count mt-3">
+                        <h3 class="text-center mb-3">expenses</h3>
+                        <div class="d-flex">
+                            <h4 class="mt-2 income-food">food:</h4>
+                            <input type="number" name="" id="foodInput" class="form-control">
+                        </div>
+                        <div class="d-flex mt-3">
+                            <h4 class="mt-2 income-rent">rent:</h4>
+                            <input type="number" name="" id="rentInput" class="form-control">
+                        </div>
+                        <div class="d-flex mt-3">
+                            <h4 class="mt-2 income-cloth">clothes:</h4>
+                            <input type="number" name="" id="clothInput" class="form-control">
+                        </div>
+                        <!-- Handle Error Message -->
+                        <p class="text-danger fw-bold text-center mt-2" id="inputError"></p>
+                        <button type="button" class="btn fw-bold text-light mt-3" id="calculateBtn">calculate
+                            Now</button>
+                        <h3 class="text-center mb-3 mt-3">total expenses: <span id="totalExpensive"></span></h3>
+                        <h3 class="text-center mb-4">Balance: <span id="totalBalance"></span></h3>
+                    </div>
+                </div>
+                <!-- Saving Section Start Form Here -->
+                <section class="saving-section">
+                    <div class="saving d-flex mt-3 gx-2">
+                        <h4 class="mt-2 me-3">save:</h4>
+                        <input type="number" name="" id="saveInput" class="saving-input form-control">
+                        <h4 class="me-2 ms-2">%</h4>
+                        <button type="button" class="btn2 fw-bold text-light rounded" id="saveBtn">save</button>
+                    </div>
+                    <div class="save-amount">
+                        <h3 class="text-center mb-3 mt-3">saving amount: <span id="savingAmount"></span></h3>
+                        <h3 class="text-center mb-4">Remaining Balance: <span id="remainingBalance"></span></h3>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main JavaScript File Added -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

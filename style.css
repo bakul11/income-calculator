@@ -1,0 +1,93 @@
+ /* ===============================
+    Typography Start Form Here
+ =============================== */
+ body{
+     padding: 0;
+     margin: 0;
+    font-family: 'Poppins', sans-serif;      
+ }
+ h2{
+     font-weight: 900;
+     color: #5BA6FF;
+     font-size: 30px;
+     text-transform: capitalize;
+ }
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #4a4646;
+}
+ h4{
+     font-weight: 700;
+     font-size: 14px;
+     text-transform: capitalize;
+     color: #4a4646;
+ }
+ .btn{
+     background: #5BA6FF;
+     padding: 10px 50px;
+     font-size: 18px;
+     text-transform: capitalize;
+     margin-left: 100px;
+     display: block;
+     margin-top: 10px;
+ }
+ .btn2 {
+    background: #5BA6FF;
+    padding: 5px 32px;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: block;
+    border: none;
+}
+.income-thubnail img{
+    height: 350px;
+    margin-top: 50px;
+}
+ /* ===============================
+        Typography End
+ =============================== */
+
+
+
+
+
+/* ===============================
+ Income Section Start Form Here
+ =============================== */
+.incomeBg{
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.income-section input{
+     width: 300px;
+     background: rgba(252, 246, 246, 0.836);
+ }
+.income-title{
+    margin-right: 30px;
+}
+.income-food {
+    margin-right: 46px;
+}
+.income-rent{
+    margin-right: 46px;
+}
+.income-cloth {
+    margin-right: 26px;
+}
+/* ===============================
+        Income Section End
+ =============================== */
+
+
+
+
+/* =======================================
+ Saving Section Start Form Here
+ ====================================== */
+ .saving{
+     align-items: center;
+ }
+.saving-section .saving-input{
+    width:195px;
+ }
